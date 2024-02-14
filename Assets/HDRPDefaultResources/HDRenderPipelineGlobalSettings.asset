@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781cc897cf8675041a751163b51f97dd, type: 3}
   m_Name: HDRenderPipelineGlobalSettings
   m_EditorClassIdentifier: 
-  m_DefaultVolumeProfile: {fileID: 11400000, guid: cf659a455911d5b498cb8f56cd33dedb, type: 2}
-  m_LookDevVolumeProfile: {fileID: 11400000, guid: e9c099014f300ff40a705bffd7a584d8, type: 2}
+  m_DefaultVolumeProfile: {fileID: 11400000, guid: d1523670c2610044298c3476bd9fa411, type: 2}
+  m_LookDevVolumeProfile: {fileID: 11400000, guid: 3b370f66272ab014090daea9f87ac4ad, type: 2}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
       data1: 72198260625768269
@@ -65,7 +65,6 @@ MonoBehaviour:
   beforePostProcessCustomPostProcesses:
   - Kino.PostProcessing.Streak, Kino.Postprocessing, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  - IE.RichFX.BloomStreak, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   afterPostProcessBlursCustomPostProcesses: []
   afterPostProcessCustomPostProcesses:
   - Kino.PostProcessing.Glitch, Kino.Postprocessing, Version=0.0.0.0, Culture=neutral,
@@ -80,51 +79,7 @@ MonoBehaviour:
     PublicKeyToken=null
   - Kino.PostProcessing.Utility, Kino.Postprocessing, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
-  - IE.RichFX.CGAFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.ChromaLines, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.ColorEdges, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.DirectionalBlur, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  - IE.RichFX.DisplaceView, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Distort, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.EdgeDetection, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.EGAFilter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.EightColor, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.GaussianBlur, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Glitch, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.GrayScale, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.HueSaturationInvert, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  - IE.RichFX.LetterBox, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.LowLightCam, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Nightvision, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Oil, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Overlay, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.PencilSketch, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Pixelate, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Posterize, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.RadialBlur, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.RainbowFlow, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Recolor, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.RGBDistortion, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   - Kino.PostProcessing.TestCard, Kino.Postprocessing, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  - IE.RichFX.Scanlines, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.RGBSplit, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Zoom, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Wobble, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Underwater, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.TextureDistortion, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  - IE.RichFX.Slice, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.SketchMotion, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.SimpleOutline, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.SimpleGaussianBlur, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-    PublicKeyToken=null
-  - IE.RichFX.ScreenFuzz, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.ScreenGlitch, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.Sharpen, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - IE.RichFX.SimpleFrostedGlass, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
     PublicKeyToken=null
   beforeTAACustomPostProcesses: []
   lightLayerName0: Light Layer default
@@ -146,10 +101,10 @@ MonoBehaviour:
   shaderVariantLogLevel: 0
   lensAttenuationMode: 0
   diffusionProfileSettingsList:
-  - {fileID: 11400000, guid: 95d0056167e9b6d45abc4f894ed7aea3, type: 2}
-  - {fileID: 11400000, guid: 41c1fa84bd30abb4396257e7d619b025, type: 2}
-  - {fileID: 11400000, guid: 042b369f79fe92347bba57fff5827227, type: 2}
-  - {fileID: 11400000, guid: 6a6f66bdbd490764c9d98616189600ec, type: 2}
+  - {fileID: 11400000, guid: 2de94663e92549b41bcd3ef203ea7656, type: 2}
+  - {fileID: 11400000, guid: e3bab94b45eb2384abd1dfefb2f9167f, type: 2}
+  - {fileID: 11400000, guid: 65cf2147ef0461d46bfb60b097523b51, type: 2}
+  - {fileID: 11400000, guid: 2179529ea61aa454dadeebfd5c91c558, type: 2}
   rendererListCulling: 0
   DLSSProjectId: 000000
   useDLSSCustomProjectId: 0
