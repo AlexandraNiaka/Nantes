@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using OscJack;
+using UnityEngine.Events;
 
 public class activateVfxOSC : MonoBehaviour
 {
 
-
-
+    #region vfx
     [SerializeField]
     GameObject vfx1;
     [SerializeField]
@@ -57,7 +58,9 @@ public class activateVfxOSC : MonoBehaviour
     GameObject vfx24;
     [SerializeField]
     GameObject vfx25;
+    #endregion
 
+    #region active Bools
     [NaughtyAttributes.ReadOnlyAttribute]
     public bool _active1;
     [NaughtyAttributes.ReadOnlyAttribute]
@@ -108,6 +111,9 @@ public class activateVfxOSC : MonoBehaviour
     public bool _active24;
     [NaughtyAttributes.ReadOnlyAttribute]
     public bool _active25;
+    #endregion
+
+    #region Toggle Functions
     public void Toggle1()
     {
         _active1 = !_active1;
@@ -254,5 +260,14 @@ public class activateVfxOSC : MonoBehaviour
         _active25 = !_active25;
         vfx25.SetActive(_active25);
     }
+    #endregion
+
+
+    public void  FFFFFloatDebug(float f)
+    {
+        Debug.Log("FFFFFloatDebug" + f);
+    }
+
+
 
 }
