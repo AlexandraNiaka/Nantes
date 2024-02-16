@@ -1159,7 +1159,7 @@ GameObject:
   - component: {fileID: 905634171}
   - component: {fileID: 905634170}
   m_Layer: 0
-  m_Name: ==VFX MANAGER==
+  m_Name: ==VFX ACTIVATION MANAGER==
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
